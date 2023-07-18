@@ -99,9 +99,9 @@ require (
 	k8s.io/kubectl v0.26.1
 	k8s.io/metrics v0.26.1
 	k8s.io/utils v0.0.0-20230202215443-34013725500c
-	kubesphere.io/api v0.0.0
-	kubesphere.io/client-go v0.0.0
-	kubesphere.io/monitoring-dashboard v0.2.2
+	github.com/mensylisir/api v0.0.0
+	github.com/mensylisir/client-go v0.0.0
+	github.com/mensylisir/monitoring-dashboard v0.2.2
 	sigs.k8s.io/application v0.8.4-0.20201016185654-c8e2959e57a0
 	sigs.k8s.io/controller-runtime v0.14.4
 	sigs.k8s.io/controller-tools v0.11.1
@@ -533,10 +533,10 @@ replace (
 	k8s.io/kubectl => k8s.io/kubectl v0.26.1
 	k8s.io/metrics => k8s.io/metrics v0.26.1
 	k8s.io/utils => k8s.io/utils v0.0.0-20230202215443-34013725500c
-	kubesphere.io/api => ./staging/src/kubesphere.io/api
-	kubesphere.io/client-go => ./staging/src/kubesphere.io/client-go
-	kubesphere.io/monitoring-dashboard => kubesphere.io/monitoring-dashboard v0.2.2
-	kubesphere.io/utils => ./staging/src/kubesphere.io/utils
+	github.com/mensylisir/api => ./staging/src/kubesphere.io/api
+	github.com/mensylisir/client-go => ./staging/src/kubesphere.io/client-go
+	github.com/mensylisir/monitoring-dashboard => kubesphere.io/monitoring-dashboard v0.2.2
+	github.com/mensylisir/utils => ./staging/src/kubesphere.io/utils
 	oras.land/oras-go => oras.land/oras-go v1.2.2
 	sigs.k8s.io/application => sigs.k8s.io/application v0.8.4-0.20201016185654-c8e2959e57a0
 	sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.14.4
