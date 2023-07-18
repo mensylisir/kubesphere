@@ -4,7 +4,7 @@
 // Run hack/pin-dependency.sh to change pinned dependency versions.
 // Run hack/update-vendor.sh to update go.mod files and the vendor directory.
 
-module kubesphere.io/kubesphere
+module github.com/mensylisir/kubesphere
 
 go 1.19
 
