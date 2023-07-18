@@ -20,8 +20,8 @@ package v2beta1
 
 import (
 	rest "k8s.io/client-go/rest"
-	v2beta1 "kubesphere.io/api/alerting/v2beta1"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/scheme"
+	v2beta1 "github.com/mensylisir/api/alerting/v2beta1"
+	"github.com/mensylisir/kubesphere/pkg/client/clientset/versioned/scheme"
 )
 
 type AlertingV2beta1Interface interface {
