@@ -20,8 +20,8 @@ package v1alpha1
 
 import (
 	rest "k8s.io/client-go/rest"
-	v1alpha1 "kubesphere.io/api/application/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/mensylisir/api/application/v1alpha1"
+	"github.com/mensylisir/kubesphere/pkg/client/clientset/versioned/scheme"
 )
 
 type ApplicationV1alpha1Interface interface {
